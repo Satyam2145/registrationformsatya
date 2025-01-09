@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userTableBody = document.querySelector("#userTable tbody");
     const statusMessage = document.getElementById("statusMessage");
 
-    const API_URL = "http://localhost:5500/api/users";
+    const API_URL = "https://registrationformcodemonk.onrender.com/api/users";
 
     // Fetch users
     fetch(API_URL)

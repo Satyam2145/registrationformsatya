@@ -32,7 +32,7 @@ document
     submitButton.innerText = "Submitting...";
 
     // Send data to the server
-    fetch("http://localhost:5500/api/register", {
+    fetch("https://registrationformcodemonk.onrender.com/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
